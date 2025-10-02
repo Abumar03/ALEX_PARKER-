@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    test
-</body>
+  <head>
+    <?php include_once '../app/views/templates/partials/_head.php'; ?>
+  </head>
+
+  <body>
+    <!-- Preloader Start -->
+    <div class="preloader">
+      <div class="rounder"></div>
+    </div>
+    <!-- Preloader End -->
+
+    <div id="main">
+      <?php include_once '../app/views/templates/partials/_main.php'; ?>
+    </div>
+    <?php include_once '../app/views/templates/partials/_js.php'; ?>
+  </body>
 </html>
