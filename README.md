@@ -7,3 +7,4 @@ Un blog simple en PHP MVC procédural
 - Procedural
 - Versionning (GITKRAKEN)
 - Partials
+- CRUD
